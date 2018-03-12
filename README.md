@@ -28,8 +28,8 @@ Run **composer install** to install PHPUNIT
 
 ## Running the tests
 
-phpunit tests/FactoryMethodTests
-phpunit tests/PrototypeTests
+* phpunit tests/FactoryMethodTests
+* phpunit tests/PrototypeTests
 
 ## Built With
 
