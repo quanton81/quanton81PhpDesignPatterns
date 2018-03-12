@@ -9,12 +9,12 @@ class FactoryMethodTest extends TestCase
     public function testWheelFactory()
     {
         $wheelFactory = new WheelFactory();
-        $this->assertSame("Wheel", $wheelFactory->startFactory());
+        $this->assertSame("4 Wheels", $wheelFactory->startFactory());
     }
     
     public function testEngineFactory()
     {
         $engineFactory = new EngineFactory();
-        $this->assertSame("Silent Powerful Engine", $engineFactory->startFactory());
+        $this->assertSame("V12 Engine", $engineFactory->startFactory());
     }
 }
