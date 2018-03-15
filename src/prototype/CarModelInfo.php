@@ -12,8 +12,10 @@ class CarModelInfo
         $vars = get_object_vars($this->_carModel);
         foreach ($vars as $value)
         {
-            $this->_carModel->modeInfo($value);
+            $this->_carModel->modelInfo($value);
         }
     }
 }
+
+$carModelInfo = new CarModelInfo();
 

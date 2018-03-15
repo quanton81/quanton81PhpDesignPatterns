@@ -37,7 +37,7 @@ class CarModel
         
     }
 
-    public function modeInfo(IModelPrototype $model)
+    public function modelInfo(IModelPrototype $model)
     {
         echo "\nModel: {$model->getModel()} {$model->getType()} - {$model->getPrice()} $\n";
         echo "Internal: {$model->getInternal()}\n";
