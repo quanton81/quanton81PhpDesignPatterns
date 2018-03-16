@@ -1,9 +1,9 @@
 <?php
 
 include_once('PriceDollars.php');
-include_once('ITarget.php');
+include_once('IConverter.php');
 
-class DollariConvertitore extends PriceDollars implements ITarget
+class DollariConvertitore extends PriceDollars implements IConverter
 {
     private $_prezzo;
 
