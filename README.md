@@ -16,7 +16,8 @@ This project implements the principal design patterns organized by purpose and s
 ## Getting Started
 
 1. Implemented Factory Method [Creational, Class]
-1. Implemented Prototype [Creational, Objec]
+2. Implemented Prototype [Creational, Objec]
+3. Implemented Adapter [Structural, Class]
 
 ### Prerequisites
 
