@@ -1,4 +1,4 @@
-# Quanton PHP Design Patterns
+# QuAnton PHP Design Patterns
 
 This project implements the principal design patterns organized by purpose and scope
 
@@ -18,6 +18,7 @@ This project implements the principal design patterns organized by purpose and s
 1. Implemented Factory Method [Creational, Class]
 2. Implemented Prototype [Creational, Objec]
 3. Implemented Adapter [Structural, Class]
+4. Implemented Adapter [Structural, Object]
 
 ### Prerequisites
 
