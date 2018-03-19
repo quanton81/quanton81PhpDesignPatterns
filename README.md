@@ -15,10 +15,16 @@ This project implements the principal design patterns organized by purpose and s
 
 ## Design patterns
 
-1. Implemented Factory Method [Creational, Class]
-2. Implemented Prototype [Creational, Objec]
-3. Implemented Adapter [Structural, Class]
-4. Implemented Adapter [Structural, Object]
+### Creational
+
+1. Implemented Factory Method Design Pattern [Class]
+2. Implemented Prototype Design Pattern [Objec]
+
+### Structural
+
+1. Implemented Adapter Design Pattern [Class]
+2. Implemented Adapter Design Pattern [Object]
+3. Implemented Decorator Design Pattern [Object]
 
 ### Prerequisites
 
@@ -34,6 +40,7 @@ Run **composer install** to install PHPUNIT
 * phpunit tests/PrototypeTests
 * phpunit tests/ClassAdapterTests
 * phpunit tests/ObjectAdapterTests
+* phpunit tests/DecoratorTests
 
 ## Built With
 

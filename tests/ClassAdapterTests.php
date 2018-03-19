@@ -1,4 +1,5 @@
 <?php
+
 use PHPUnit\Framework\TestCase;
 
 include_once('src/adapter/class/PrezzoEuro.php');
