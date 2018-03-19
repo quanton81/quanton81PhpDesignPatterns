@@ -13,7 +13,7 @@ This project implements the principal design patterns organized by purpose and s
 * Class
 * Object
 
-## Getting Started
+## Design patterns
 
 1. Implemented Factory Method [Creational, Class]
 2. Implemented Prototype [Creational, Objec]
@@ -32,6 +32,8 @@ Run **composer install** to install PHPUNIT
 
 * phpunit tests/FactoryMethodTests
 * phpunit tests/PrototypeTests
+* phpunit tests/ClassAdapterTests
+* phpunit tests/ObjectAdapterTests
 
 ## Built With
 
