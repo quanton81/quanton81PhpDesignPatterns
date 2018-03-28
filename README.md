@@ -28,7 +28,8 @@ This project implements the principal design patterns organized by purpose and s
 
 ### Behavioral
 
-1. Implemented Chain of Responsibility Pattern [Object]
+1. Implemented Tempate Method Pattern [Class]
+2. Implemented Chain of Responsibility Pattern [Object]
 
 ### Prerequisites
 
@@ -45,6 +46,7 @@ Run **composer install** to install PHPUNIT
 * phpunit tests/ClassAdapterTests
 * phpunit tests/ObjectAdapterTests
 * phpunit tests/DecoratorTests
+* phpunit tests/TemplateMethodTests
 * phpunit tests/ChainOfResponsibilityTests
 
 ## Built With
