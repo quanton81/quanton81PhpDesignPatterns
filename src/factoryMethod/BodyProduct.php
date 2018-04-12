@@ -8,7 +8,7 @@ class BodyProduct implements Product
 
     public function getProperties()
     {
-        $this->product = "Mono Volume";
+        $this->product = "Roadster";
         return $this->product;
     }
 }
