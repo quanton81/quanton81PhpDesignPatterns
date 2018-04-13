@@ -26,9 +26,6 @@ abstract class IModelPrototype
             case "Metane":
                 $this->type = "M";
                 break;
-            case "Gasoline":
-                $this->type = "G";
-                break;
             case "Diesel":
                 $this->type = "D";
                 break;
@@ -36,7 +33,7 @@ abstract class IModelPrototype
                 $this->type = "E";
                 break;
             default:
-                $this->type = "i";
+                $this->type = "G";
                 break;
         }
         

@@ -17,6 +17,8 @@ class PrototypeTest extends TestCase
 
         foreach ($vars as $value)
         {
+            echo "\n {$value->getModel()} {$value->getType()}";
+            
             switch ($value->getType())
             {
                 case "G":

@@ -11,7 +11,7 @@ class Executive extends IModelPrototype
         $this->internal = "Fabric";
         $this->color = "White";
         $this->fuel = "Gasoline";
-        $this->price = "10000";
+        $this->price = 10000;
         $this->_type = $this->setType();
     }
 

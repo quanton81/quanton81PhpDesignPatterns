@@ -11,7 +11,7 @@ class Exclusive extends IModelPrototype
         $this->internal = "Aluminium";
         $this->color = "Gray";
         $this->fuel = "Gasoline";
-        $this->price = "15000";
+        $this->price = 15000;
         $this->_type = $this->setType();
     }
 
