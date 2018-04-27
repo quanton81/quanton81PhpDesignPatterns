@@ -4,19 +4,19 @@ include_once('Decoratore.php');
 
 class Palline extends Decoratore
 {
-    private $_elemento;
+    private $_descrizione;
     private $_prezzo;
 
 	public function __construct(IComponente $elementoC) 
 	{
 		$this->elemento = $elementoC;
-        $this->_elemento = "Palline di natale";
+        $this->_descrizione = "Palline di natale";
         $this->_prezzo = 3;
 	}
 
-	public function getElemento() 
+	public function getDescrizione() 
 	{
-		return $this->elemento->getElemento() . ", " . $this->_elemento;
+		return $this->elemento->getDescrizione() . ", " . $this->_descrizione;
 	}
 
 	public function getPrezzo() 

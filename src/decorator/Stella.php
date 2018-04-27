@@ -4,19 +4,19 @@ include_once('Decoratore.php');
 
 class Stella extends Decoratore
 {
-    private $_elemento;
+    private $_descrizione;
     private $_prezzo;
 
 	public function __construct(IComponente $elementoC) 
 	{
 		$this->elemento = $elementoC;
-        $this->_elemento = "Stella di natale";
+        $this->_descrizione = "Stella di natale";
         $this->_prezzo = 12;
 	}
 
-	public function getElemento() 
+	public function getDescrizione() 
 	{
-		return $this->elemento->getElemento() . ", " . $this->_elemento;
+		return $this->elemento->getDescrizione() . ", " . $this->_descrizione;
 	}
 
 	public function getPrezzo() 

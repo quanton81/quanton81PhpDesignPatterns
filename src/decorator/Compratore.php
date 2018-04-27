@@ -24,12 +24,12 @@ class Compratore
 		return $componente;
 	}
 
-	public function getElementi()
+	public function descrizione()
 	{
-		return $this->albero->getElemento();
+		return $this->albero->getDescrizione();
 	}
 
-	public function getPrezzo()
+	public function prezzo()
 	{
 		return $this->albero->getPrezzo();
 	}
@@ -37,5 +37,5 @@ class Compratore
 
 $compratore = new Compratore();
 
-echo "Elementi comprati: {$compratore->getElementi()}\n";
-echo "Elementi Prezzo: {$compratore->getPrezzo()}";
+echo "Elementi comprati: {$compratore->descrizione()}\n";
+echo "Elementi Prezzo: {$compratore->prezzo()}";

@@ -4,18 +4,22 @@ include_once('IComponente.php');
 
 class Albero extends IComponente
 {
+	private $_descrizione;
+    private $_prezzo;
+
 	public function __construct()
 	{
-		$this->elemento = "Albero natalizio";
+		$this->_descrizione = "Albero natalizio";
+		$this->_prezzo = 150;
 	}
 
-	public function getElemento()
+	public function getDescrizione()
 	{
-		return $this->elemento;
+		return $this->_descrizione;
 	}
 
 	public function getPrezzo()
 	{
-		return 150;
+		return $this->_prezzo;
 	}
 }

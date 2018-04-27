@@ -44,7 +44,7 @@ class DecoratorTests extends TestCase
 		$alberoPallineLuci = new Luci($alberoPalline);
 		$alberoCompleto = new Stella($alberoPallineLuci);
 
-        $this->assertSame("Albero natalizio, Palline di natale, Luci natalizie, Stella di natale", $alberoCompleto->getElemento());
+        $this->assertSame("Albero natalizio, Palline di natale, Luci natalizie, Stella di natale", $alberoCompleto->getDescrizione());
     }
 
     public function testElementiAlberoPallineLuci()
@@ -53,7 +53,7 @@ class DecoratorTests extends TestCase
         $alberoPalline = new Palline($albero);
 		$alberoPallineLuci = new Luci($alberoPalline);
 		
-        $this->assertSame("Albero natalizio, Palline di natale, Luci natalizie", $alberoPallineLuci->getElemento());
+        $this->assertSame("Albero natalizio, Palline di natale, Luci natalizie", $alberoPallineLuci->getDescrizione());
     }
 
     public function testElementiAlberoPallineStella()
@@ -62,6 +62,6 @@ class DecoratorTests extends TestCase
         $alberoPalline = new Palline($albero);
 		$alberoPallineStella = new Stella($alberoPalline);
 		
-        $this->assertSame("Albero natalizio, Palline di natale, Stella di natale", $alberoPallineStella->getElemento());
+        $this->assertSame("Albero natalizio, Palline di natale, Stella di natale", $alberoPallineStella->getDescrizione());
     }
 }
