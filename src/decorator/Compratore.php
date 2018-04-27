@@ -1,6 +1,5 @@
 <?php
 
-include_once('IComponente.php');
 include_once('Albero.php');
 include_once('Palline.php');
 include_once('Luci.php');

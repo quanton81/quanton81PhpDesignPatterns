@@ -2,7 +2,6 @@
 
 use PHPUnit\Framework\TestCase;
 
-include_once('src/decorator/IComponente.php');
 include_once('src/decorator/Albero.php');
 include_once('src/decorator/Palline.php');
 include_once('src/decorator/Luci.php');
