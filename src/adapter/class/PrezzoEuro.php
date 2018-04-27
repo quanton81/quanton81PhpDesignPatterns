@@ -1,6 +1,8 @@
 <?php
 
-class PrezzoEuro
+include_once('IConverter.php');
+
+class PrezzoEuro implements IConverter
 {
     private $_euro;
 
