@@ -30,7 +30,8 @@ This project implements the principal design patterns organized by purpose and s
 
 1. Implemented Tempate Method Pattern [Class]
 2. Implemented State Design Pattern [Object]
-3. Implemented Chain of Responsibility Pattern [Object]
+3. Implemented Strategy Design Pattern [Object]
+4. Implemented Chain of Responsibility Pattern [Object]
 
 ### Prerequisites
 
@@ -49,6 +50,7 @@ Run **composer install** to install PHPUNIT
 * phpunit tests/DecoratorTests
 * phpunit tests/TemplateMethodTests
 * phpunit tests/StateDesignTests
+* phpunit tests/StrategyDesignTests
 * phpunit tests/ChainOfResponsibilityTests
 
 ## Built With

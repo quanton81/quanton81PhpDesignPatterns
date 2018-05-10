@@ -4,7 +4,7 @@ use PHPUnit\Framework\TestCase;
 
 include_once('src/stateDesign/Contesto.php');
 
-class stateDesignTests extends TestCase
+class StateDesignTests extends TestCase
 {
     public function testAccendiSpento()
     {
