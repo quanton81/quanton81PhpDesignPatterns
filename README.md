@@ -32,6 +32,7 @@ This project implements the principal design patterns organized by purpose and s
 2. Implemented State Design Pattern [Object]
 3. Implemented Strategy Design Pattern [Object]
 4. Implemented Chain of Responsibility Pattern [Object]
+5. Implemented Observer Pattern [Object]
 
 ### Prerequisites
 
@@ -52,6 +53,7 @@ Run **composer install** to install PHPUNIT
 * phpunit tests/StateDesignTests
 * phpunit tests/StrategyDesignTests
 * phpunit tests/ChainOfResponsibilityTests
+* phpunit tests/ObserverTests
 
 ## Built With
 
